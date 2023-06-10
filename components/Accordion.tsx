@@ -11,7 +11,7 @@ const Accordion = () => {
 			<h1 className='self-center text-3xl font-bold text-darkDesaturatedBlue md:self-start md:text-4xl'>
 				FAQ
 			</h1>
-			<dl className='flex flex-col gap-y-3 '>
+			<dl className='flex flex-col gap-y-3'>
 				{data.map((faq) => (
 					<Disclosure as='div' key={faq.question}>
 						{({ open }) => (

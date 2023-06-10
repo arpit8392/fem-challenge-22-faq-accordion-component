@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
 	return (
 		<main className='grid grid-cols-1 gap-32 rounded-3xl bg-white p-6 md:grid-cols-2 md:gap-20 md:pb-20 md:pr-24 md:pt-16 '>
-			<div className='relative -left-10 flex items-center justify-center md:items-start'>
+			<div className='relative flex items-center justify-center md:items-start md:-left-10'>
 				<div className='absolute -top-32'>
 					<Image
 						src={'/images/illustration-woman-online-mobile.svg'}
